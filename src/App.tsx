@@ -32,7 +32,7 @@ const API_URL = "https://vast-monkey-33.hasura.app/v1/graphql";
 const client = new GraphQLClient(API_URL, {
   headers: {
     "x-hasura-role": "admin",
-    "x-hasura-admin-secret":" uHBM18xHbF0yFwpo1OB0l3poSvy2WK4diqH5XQKGCJqWpb2k3mOpYCsm8fK3S1zN",
+    "x-hasura-admin-secret":" Your secrt",
   },
 });
 
